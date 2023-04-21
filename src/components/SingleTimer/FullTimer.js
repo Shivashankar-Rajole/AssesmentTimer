@@ -37,6 +37,7 @@ export default function FullTimer(props) {
     let time = utils.parseTime(input);
     restart(time);
     pause();
+    // eslint-disable-next-line
   }, [input]);
 
   if (isHidden) return <></>;
